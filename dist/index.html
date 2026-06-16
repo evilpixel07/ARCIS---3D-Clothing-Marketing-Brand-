@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARCIS</title>
+
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/assets/index-DybAtmV4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D1u3o7dN.css">
+</head>
+
+<body>
+
+
+
+
+  <!-- loader -->
+  <div id="loader">
+    <div class="loader-inner">
+      <h2>ARCIS</h2>
+      <div class="loader-bar-track">
+        <div class="loader-bar-fill"></div>
+      </div>
+      <span class="loader-percent">0%</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">ARCIS</a>
+    <div class="nav-links">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#scroll-story">Details</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#explore">Explore</a>
+    </div>
+    <button class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- 3D Canvas -->
+  <div id="canvas-container"></div>
+
+  <!-- MAIN CONTENT -->
+  <main id="app">
+
+    <!-- HERO -->
+    <section id="hero">
+      
+      <div class="hero-content">
+        <p class="hero-label">01 / HERO</p>
+        <h1 class="hero-title">
+          <span class="line">A study in</span>
+          <span class="line">form and material.</span>
+        </h1>
+        <p class="hero-sub">The collection, reconstructed.</p>
+      </div>
+      <div class="hero-scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section id="philosophy">
+      <p class="section-label">02 / PHILOSOPHY</p>
+      <div class="philosophy-text">
+        <p>We make clothing to be worn and lived in.</p>
+        <p>Our pieces are made in small batches, using single-source fabrics that soften and take shape over time.</p>
+        <p>This collection focuses on natural fibers, structured cuts, and details that serve a purpose.</p>
+      </div>
+    </section>
+
+    <!-- SCROLL STORY -->
+    <section id="scroll-story">
+      <div class="story-canvas-wrap"></div>
+      <div class="story-panels">
+        <div class="story-panel " data-beat="0">
+          <h3>01 — THE SEAMS</h3>
+            <p>Finished with bound French seams to prevent fraying. Constructed using high-density cotton thread for longevity.</p>
+        </div>
+        <div class="story-panel" data-beat="1">
+          <h3>02 — THE LINEN</h3>
+            <p>Sourced from a historic mill in Nishiwaki, Japan. A heavy 240g linen, pre-washed for a soft drape and textured surface.</p>
+        </div>
+        <div class="story-panel" data-beat="2">
+          <h3>03 — THE PATTERN</h3>
+            <p>Cut and assembled by hand in Osaka. Designed with a relaxed shoulder and deep pockets that sit naturally at the hip.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERIAL STUDY -->
+    <section id="material-study">
+      <div class="material-content">
+        <p class="section-label">03 / MATERIAL</p>
+        <h2>Detail Study</h2>
+        <p>100% Japanese Linen · 240g/m² weight · Natural flax dye</p>
+        <p>Woven on low-tension shuttle looms to preserve the raw, irregular texture of the flax fiber.</p>
+      </div>
+    </section>
+
+    <!-- LOOKBOOK -->
+    <section id="lookbook">
+      <p class="section-label">04 / LOOKBOOK</p>
+      <div class="lookbook-grid">
+        <div class="lookbook-card">
+          <div class="card-image">
+            <img src="/images/overcoat.jpeg" alt="The Linen Overcoat">
+          </div>
+          <span class="card-label">The Linen Overcoat</span>
+        </div>
+        <div class="lookbook-card">
+          <div class="card-image">
+            <img src="/images/pullover.jpeg" alt="The Ribbed Pullover">
+          </div>
+          <span class="card-label">The Ribbed Pullover</span>
+        </div>
+        <div class="lookbook-card">
+          <div class="card-image">
+            <img src="/images/trouser.jpeg" alt="The Straight Trouser">
+          </div>
+          <span class="card-label">The Straight Trouser</span>
+        </div>
+        <div class="lookbook-card">
+          <div class="card-image">
+            <img src="/images/sweater.jpeg" alt="The Structured Jacket">
+          </div>
+          <span class="card-label">The Structured Jacket</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE -->
+    <section id="explore">
+      <div class="explore-content">
+        <p class="section-label">05 / EXPLORE</p>
+        <p class="explore-hint">← Drag to explore →</p>
+      </div>
+      <div class="explore-hotspots">
+        <div class="hotspot" data-label="Collar Seam">
+          <span class="hotspot-dot"></span>
+          <span class="hotspot-label">Reinforced stitch line to maintain structure</span>
+        </div>
+        <div class="hotspot" data-label="Pockets">
+          <span class="hotspot-dot"></span>
+          <span class="hotspot-label">Deep, drop-in welt pockets with double-bar tacks</span>
+        </div>
+        <div class="hotspot" data-label="Interior">
+          <span class="hotspot-dot"></span>
+          <span class="hotspot-label">Half-lined with organic cotton for breathability</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTRO -->
+    <section id="outro">
+      <h2 class="outro-title">ARCIS</h2>
+      <p class="outro-sub">A study in form and material.</p>
+      <p class="outro-availability">Available in limited quantities.</p>
+      <div class="outro-links">
+        <a href="#" area-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="#" area-label="Pinterest">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2C6.477 2 2 6.477 2 12c0 4.237 2.636 7.855 6.356 9.312-.087-.791-.167-2.005.035-2.868.182-.78 1.172-4.97 1.172-4.97s-.299-.599-.299-1.484c0-1.391.806-2.428 1.809-2.428.853 0 1.265.641 1.265 1.408 0 .858-.546 2.141-.828 3.33-.236.996.5 1.807 1.48 1.807 1.776 0 3.142-1.873 3.142-4.577 0-2.394-1.72-4.068-4.177-4.068-2.845 0-4.515 2.135-4.515 4.34 0 .859.331 1.781.744 2.282a.3.3 0 0 1 .069.288l-.278 1.133c-.044.183-.145.223-.335.134-1.249-.581-2.03-2.407-2.03-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.473 6.165 5.78 0 3.447-2.173 6.22-5.19 6.22-1.013 0-1.965-.525-2.291-1.148l-.623 2.378c-.226.869-.835 1.958-1.244 2.622.935.29 1.93.45 2.958.45 5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+          </svg>
+        </a>
+        <a href="#" area-label="Journal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            <line x1="8" y1="7" x2="16" y2="7"/>
+            <line x1="8" y1="11" x2="14" y2="11"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer-->
+
+    <footer id="footer">
+      <span>ARCIS</span>
+      <span>Fictional Campaign Presentation. </span>
+
+    </footer>
+  </main>
+
+</body>
+
+</html>

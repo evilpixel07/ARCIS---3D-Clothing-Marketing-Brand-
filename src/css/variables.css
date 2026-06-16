@@ -1,0 +1,42 @@
+
+:root {
+  /* ---- Colors ---- */
+  /* --color-bg-dark: #121212; */
+  --color-bg-light:    #faf8f5;
+  --color-accent:      #a39480;
+  --color-text-dark:   #111111;
+  --color-text-light:  #f4f4f4;
+  --color-border:      #e5e5e5;
+
+  /* ---- Typography ---- */
+  --font-satoshi: 'Satoshi', sans-serif;
+
+  /* ---- Type Scale ---- */
+  --text-display: clamp(3.5rem, 8vw, 8rem);
+  --text-h1:      clamp(2.2rem, 5vw, 4.5rem);
+  --text-h2:      clamp(1.4rem, 2.5vw, 2.2rem);
+  --text-body:    clamp(0.95rem, 1.2vw, 1.1rem);
+  --text-label:   clamp(0.75rem, 1vw, 0.85rem);
+
+  /* ---- Spacing Scale ---- */
+  --space-xs:    8px;
+  --space-sm:    16px;
+  --space-md:    24px;
+  --space-lg:    32px;
+  --space-xl:    48px;
+  --space-2xl:   64px;
+  --space-3xl:   96px;
+  --space-4xl:   128px;
+  --space-section: clamp(80px, 10vw, 140px);
+
+  /* ---- Layout ---- */
+  --max-width: 1200px;
+  --max-width-wide: 1440px;
+  --edge-margin: clamp(24px, 6vw, 96px);
+
+  /* ---- Animation ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 0.4s;
+  --duration-normal: 0.8s;
+  --duration-slow: 1.2s;
+}
